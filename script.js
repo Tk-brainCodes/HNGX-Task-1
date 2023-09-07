@@ -14,7 +14,7 @@ function updateDataAttributes () {
 
   document.querySelector(
     '[data-testid="currentDayOfTheWeek"]'
-  ).textContent = `Current Day: ${currentDay}`
+  ).textContent = `Current Day of the Week: ${currentDay}`
   document.querySelector(
     '[data-testid="currentUTCTime"]'
   ).textContent = `Current UTC Time: ${currentUTC}`
